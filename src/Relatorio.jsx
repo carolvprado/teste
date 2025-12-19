@@ -1,6 +1,6 @@
-import bgHome from "../../assets/pexels-tiger-lily-4483610.jpg";
+import bgHome from "./pexels-tiger-lily-4483610.jpg";
 
-export default function Outbound() {
+export default function Relatorio() {
   return (
     <section
       className="home"

@@ -1,18 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 
-import MainLayout from "../layouts/MainLayout";
-import AuthLayout from "../layouts/AuthLayout";
+import MainLayout from "./MainLayout";
+import AuthLayout from "./AuthLayout";
 
-import Home from "../pages/Home/Home";
-import Sobre from "../pages/Sobre";
-import Contato from "../pages/Contato";
-import Agendamento from "../pages/Home/Agendamento";
-import Inbound from "../pages/Home/Inbound";
-import Inventario from "../pages/Home/Inventario";
-import Mobile from "../pages/Home/Mobile";
-import Outbound from "../pages/Home/Outbound";
-import Relatorio from "../pages/Home/Relatorio";
-import Login from "../pages/Login";
+import Home from "./Home";
+import Sobre from "./Sobre";
+import Contato from "./Contato";
+import Agendamento from "./Agendamento";
+import Inbound from "./Inbound";
+import Inventario from "./Inventario";
+import Mobile from "./Mobile";
+import Outbound from "./Outbound";
+import Relatorio from "./Relatorio";
+import Login from "./Login";
 
 
 export default function AppRoutes() {

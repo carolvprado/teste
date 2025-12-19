@@ -9,7 +9,7 @@ export default function Header() {
           
           {/* HOME COM DROPDOWN */}
           <div className="dropdown">
-            <Link to="../home" className="menu-item">
+            <Link to="home" className="menu-item">
               <FiHome size={18} />
               <span>Home</span>
             </Link>
